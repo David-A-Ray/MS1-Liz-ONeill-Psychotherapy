@@ -1,6 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Raleway:wght@400;600&display=swap');
 
 
+ .logo {
+    width: 100px;
+    height: 50px;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------- buttons */
 
 .social-links li a i {
     margin-top: 15px;
