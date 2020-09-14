@@ -1,8 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Raleway:wght@400;600&display=swap');
 
-
+header,
 body {
     background-color: black;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    color: #fafafa;
+}
+
+h1,
+h2,
+h3, {
+    font-family: "Cinzel", sans-serif;
+    align: center;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+/* --------------------------------------------- Nav bar */
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fafafa;
+}
+
+.bg-dark {
+    background-color: black!important;
 }
 
 /* --------------------------------------------- small images */
@@ -14,27 +39,29 @@ body {
     margin-top: -6px;
 }
 
-
-/* --------------------------------------------- large images */
-
-.first-image {
-    height: 300px;
-
-    background: url('..assets/images/LD1.jpg') no-repeat bottom right fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
+.headshot {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    height: 200px;
+    width: 250px;
+    align: center;
 }
 
 
 
+/* --------------------------------------------- large images */
+
+
+/* --------------------------------------------- Containers */
+
+.about-me {
+    padding: 50px 0px;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
 
 
 
@@ -49,8 +76,8 @@ body {
     font-size: 13px;
     line-height: 7px;
     text-align: center;
-    color: #fafafa;
-    background-color: #8f8f8f;
+    color: black;
+    background-color: #fafafa;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
