@@ -20,70 +20,74 @@
   <body>
     <!-----------------------------------Header-------------------------------------------->
     <header class="container-fluid">
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <div class="row navbar-logo-row col-12">
         <a class="navbar-brand" href="index.html">
           <img src="assets/images/logo.png" class="img-responsive logo" />
         </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      </div>
+      <div class="row">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Types of therapy</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">What to expect & FAQ's</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Testimonials</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Collaborations</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Let's talk about it</a>
-            </li>
-          </ul>
-        </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Types of therapy</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">What to expect & FAQ's</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Collaborations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Let's talk about it</a>
+              </li>
+            </ul>
+          </div>
 
-        <div class="social-icons">
-          <ul class="list-inline social-links">
-            <li class="list-inline-item">
-              <a target="_blank" href="#">
-                <i class="fab fa-instagram" aria-hidden="true"></i>
-                <span class="sr-only">Instagram</span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a target="_blank" href="#">
-                <i class="fab fa-youtube" aria-hidden="true"></i>
-                <span class="sr-only">Youtube</span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a target="_blank" href="#">
-                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-                <span class="sr-only">LinkedIn</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+          <div class="social-icons">
+            <ul class="list-inline social-links">
+              <li class="list-inline-item">
+                <a target="_blank" href="#">
+                  <i class="fab fa-instagram" aria-hidden="true"></i>
+                  <span class="sr-only">Instagram</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a target="_blank" href="#">
+                  <i class="fab fa-youtube" aria-hidden="true"></i>
+                  <span class="sr-only">Youtube</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a target="_blank" href="#">
+                  <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                  <span class="sr-only">LinkedIn</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </header>
     <!-----------------------------------Hero image---(code taken from stack overflow)------->
 
@@ -97,44 +101,46 @@
 
     <!-----------------------------------About me------------------------------------------->
     <section class="container-fluid about-me">
-        <div class="row">
-            <div class="col-12 col-md-4">
-                <img
-                    src="assets/images/Sample-Headshot.jpg"
-                    alt=""
-                    class="rounded-circle"
-                    height="160"
-                    width="200"
-                />
-            </div>
-            <div class="col-12 col-md-8">
-                <h3 class="uppercase">About me</h3>
-                <hr class="block-divider" />
-                    <p class="content-about-me">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis
-                        mi eros. Sed blandit, lectus in lacinia scelerisque, risus tortor
-                        lacinia justo, ac sollicitudin quam dolor sed ipsum. Mauris
-                        convallis tortor id orci varius, vel vulputate neque cursus. Etiam
-                        maximus felis arcu, ut porta risus pharetra et. Morbi volutpat risus
-                        massa, in iaculis lectus molestie posuere. Sed euismod ex ante, quis
-                        sagittis tortor efficitur a. Nullam aliquam ornare est ut rhoncus.
-                        Nam tempor venenatis urna vitae posuere.
-                    </p>
-                </div>
-                <div class="row col">
-                    <p class="content-about-me"> 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis
-                        mi eros. Sed blandit, lectus in lacinia scelerisque, risus tortor
-                        lacinia justo, ac sollicitudin quam dolor sed ipsum. Mauris
-                        convallis tortor id orci varius, vel vulputate neque cursus. Etiam
-                        maximus felis arcu, ut porta risus pharetra et. Morbi volutpat risus
-                        massa, in iaculis lectus molestie posuere. Sed euismod ex ante, quis
-                        sagittis tortor efficitur a. Nullam aliquam ornare est ut rhoncus.
-                        Nam tempor venenatis urna vitae posuere.
-                    </p>
-                <footer>- Liz O'Neill</footer>
-                </div>
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <img
+            src="assets/images/Sample-Headshot.jpg"
+            alt=""
+            class="rounded-circle head-shot"
+            height="160"
+            width="200"
+          />
         </div>
+        <div class="col-12 col-md-8">
+          <h3 class="uppercase">About me</h3>
+          <hr class="block-divider" />
+          <p class="about-me-first-p">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis
+            mi eros. Sed blandit, lectus in lacinia scelerisque, risus tortor
+            lacinia justo, ac sollicitudin quam dolor sed ipsum. Mauris
+            convallis tortor id orci varius, vel vulputate neque cursus. Etiam
+            maximus felis arcu, ut porta risus pharetra et. Morbi volutpat risus
+            massa, in iaculis lectus molestie posuere. Sed euismod ex ante, quis
+            sagittis tortor efficitur a. Nullam aliquam ornare est ut rhoncus.
+            Nam tempor venenatis urna vitae posuere.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-12">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis
+            mi eros. Sed blandit, lectus in lacinia scelerisque, risus tortor
+            lacinia justo, ac sollicitudin quam dolor sed ipsum. Mauris
+            convallis tortor id orci varius, vel vulputate neque cursus. Etiam
+            maximus felis arcu, ut porta risus pharetra et. Morbi volutpat risus
+            massa, in iaculis lectus molestie posuere. Sed euismod ex ante, quis
+            sagittis tortor efficitur a. Nullam aliquam ornare est ut rhoncus.
+            Nam tempor venenatis urna vitae posuere.
+          </p>
+          <footer>- Liz O'Neill</footer>
+        </div>
+      </div>
     </section>
     <!--------------------------------- image 2------(code taken from stack overflow)------->
     <div class="container-fluid px-0">
