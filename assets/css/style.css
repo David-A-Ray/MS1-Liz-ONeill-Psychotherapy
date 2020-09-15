@@ -11,7 +11,9 @@ body {
 
 h1,
 h2,
-h3, {
+h3,
+h4,
+h5, {
     font-family: "Cinzel", sans-serif;
     align: center;
 }
@@ -23,6 +25,13 @@ h3, {
 .block-divider {
     width: 75px;
     height: 3px;
+    border: 0;
+    background-color: #f8f8f8;
+}
+
+.block-divider-small {
+    width: 75px;
+    height: 1px;
     border: 0;
     background-color: #f8f8f8;
 }
@@ -72,6 +81,13 @@ h3, {
     margin: 30px;
 }
 
+.bacp {
+    height: 60%;
+    width: 80%;
+    margin-left: 5px;
+    background-color: #f8f8f8!important;
+}
+
 /* --------------------------------------------- large images */
 
 
@@ -94,6 +110,13 @@ h3, {
     border: 1px solid #f8f8f8;
 }
 
+.feature-footer {
+    text-align: center;
+    padding: 2px;
+    border: 1px solid #f8f8f8;
+    height: 275px;
+}
+
 .types-available {
     padding: 50px 10px;
 
@@ -101,7 +124,7 @@ h3, {
 
 /* --------------------------------------------- buttons */
 
-.social-links li a i {
+.social-links-header li a i {
     margin-top: 15px;
     width: 32px;
     height: 32px;
@@ -112,8 +135,43 @@ h3, {
     text-align: center;
     color: black;
     background-color: #fafafa;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links-footer li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 10px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: black;
+    background-color: #fafafa;
+}
+
+/* --------------------------------------------- footer */
+
+.footer-content {
+    padding: 10px;
+}
+
+.call-links {
+    text-align: right;
+}
+
+.phone-numbers {
+    text-align: left;
+    margin-top: 2px;
+}
+
+.feature-footer ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.feature-footer h4 {
+    padding-top: 20px;
 }
