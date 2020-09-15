@@ -6,6 +6,7 @@ body {
     font-family: "Raleway", sans-serif;
     font-weight: 400;
     color: #fafafa;
+    text-align: center;
 }
 
 h1,
@@ -19,6 +20,16 @@ h3, {
     text-transform: uppercase;
 }
 
+.block-divider {
+    width: 75px;
+    height: 3px;
+    border: 0;
+    background-color: #f8f8f8;
+}
+
+.types-available {
+    width: 100vh,
+}
 
 /* --------------------------------------------- Nav bar */
 
@@ -40,30 +51,38 @@ h3, {
 }
 
 .headshot {
-    margin-right: 30px;
-    margin-bottom: 30px;
+    margin: 20px;
     height: 200px;
     width: 250px;
     align: center;
 }
 
-
+.rounded-circle {
+    margin: 30px;
+}
 
 /* --------------------------------------------- large images */
+
 
 
 /* --------------------------------------------- Containers */
 
 .about-me {
-    padding: 50px 0px;
+    padding: 50px 50px;
+    align-content: center;
+    text-align: center;
 }
 
 .feature {
     text-align: center;
-    margin-bottom: 40px;
+    padding: 10px;
+    border: 1px solid #f8f8f8;
 }
 
+.types-available {
+    padding: 20px;
 
+}
 
 /* --------------------------------------------- buttons */
 
