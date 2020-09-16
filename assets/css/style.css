@@ -47,17 +47,15 @@ h5, {
 }
 
 .bg-dark {
-    top: 70px;
+
     position: absolute;
     background-color: black!important;
 }
 
 .navbar-logo-row {
     width: 100%;
-    padding-bottom: 80px;
+    padding-bottom: 20px;
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 /* --------------------------------------------- small images */
