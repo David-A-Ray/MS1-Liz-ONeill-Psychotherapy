@@ -45,6 +45,10 @@ h1, h2, h3, h4, h5, h6 {
     top: 60px;
 }
 
+.custom-nav-set {
+    padding-bottom: 1px;
+}
+
 .logo-top-bar {
     background-color: #aea18e;
 }
@@ -62,6 +66,7 @@ h1, h2, h3, h4, h5, h6 {
  .logo {
     width: 150px;
     height: 60px;
+    padding-top: 10px;
 }
 
 .headshot {
@@ -85,6 +90,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .banner-image {
     object-fit: cover;
+    height: 100vh;
+    padding-top: 112px;
 }
 
 /* --------------------------------------------- Text Containers */
@@ -121,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
 /* --------------------------------------------- buttons */
 
 .social-links-header li a i {
-    margin-top: 10px;
+    margin-top: 20px;
     width: 32px;
     height: 32px;
     padding: 12px 10px;
