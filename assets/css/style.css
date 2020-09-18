@@ -2,7 +2,7 @@
 
 header,
 body {
-    background-color: #aea18e;
+    background-color: #bfb8ae;
     font-family: "Raleway", sans-serif;
     font-weight: 400;
     color: #efefef;
@@ -34,23 +34,21 @@ h1, h2, h3, h4, h5, h6 {
 
 /* --------------------------------------------- Nav bar */
 
-.navbar-dark .navbar-nav .nav-link {
-    color: #efefef;
-    font-family: "Cinzel", sans-serif;
-    font-size: 14px;
+.logo-top-bar {
+    background-color: #aea18e;
+    height: 60px;
 }
 
 .bg-dark {
     background-color: #aea18e!important;
     top: 60px;
+    padding: 0px 10px;
 }
 
-.custom-nav-set {
-    padding-bottom: 1px;
-}
-
-.logo-top-bar {
-    background-color: #aea18e;
+.navbar-dark .navbar-nav .nav-link {
+    color: #efefef;
+    font-family: "Cinzel", sans-serif;
+    font-size: 14px;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -91,7 +89,6 @@ h1, h2, h3, h4, h5, h6 {
 .banner-image {
     object-fit: cover;
     height: 100vh;
-    padding-top: 112px;
 }
 
 /* --------------------------------------------- Text Containers */
@@ -180,7 +177,7 @@ h1, h2, h3, h4, h5, h6 {
 /* --------------------------------------------- footer */
 
 .footer-content {
-    padding: 10px;
+    background-color: #aea18e;
 }
 
 .call-links {
