@@ -86,14 +86,19 @@ h1, h2, h3, h4, h5, h6 {
 
 /* --------------------------------------------- medium images */
 
-.types-image {
+.types-image-top {
     object-fit: cover;
-    height: 500px;
+    height: 400px;
     margin-top: 128px;
 }
 
+.types-image {
+    object-fit: cover;
+    height: 500px;
+}
+
 @media only screen and (max-width: 991px) {
-    .top-image {
+    .types-image-top {
         margin-top: 0px;
     }
 }
@@ -111,8 +116,12 @@ h1, h2, h3, h4, h5, h6 {
 
 /* --------------------------------------------- Text Containers */
 
-.page-titl-mobile {
+.page-title-mobile {
     margin-top: 128px;
+    width: 100%;
+    padding-top: 5px;
+    background-color: #b0bbb5;
+    border:  1px solid #f8f8f8;
 }
 
 @media only screen and (min-width: 600px) {
@@ -159,8 +168,15 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 128px;
 }
 
+@media only screen and (max-width: 600px) {
+
+.top-text {
+    margin-top: 0px;
+}
+}
+
 .types-sections {
-    padding: 20px 5px;
+    padding: 20px;
 }
 
 /* --------------------------------------------- buttons */
