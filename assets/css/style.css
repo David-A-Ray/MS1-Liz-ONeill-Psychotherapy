@@ -179,6 +179,25 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px;
 }
 
+.types-text-right {
+    margin-top: 10px;
+}
+
+.types-text-right p {
+    text-align: left;
+}
+
+.types-text-left p {
+    text-align: left;
+}
+
+@media only screen and (min-width: 600px) {
+
+    .types-text-left p {
+    text-align: right;
+}
+}
+
 /* --------------------------------------------- buttons */
 
 .social-links-header li a i {
