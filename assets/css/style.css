@@ -71,8 +71,10 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 10px;
 }
 
-.rounded-circle {
-    margin: 30px;
+.types-brief-image {
+    height: 200px;
+    padding: 15px;
+    border-radius: 10px;
 }
 
 .bacp {
@@ -83,6 +85,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* --------------------------------------------- medium images */
+
+.headshot-image {
+    border-radius: 50%;
+    padding-bottom: 15px;
+}
 
 .types-image-top {
     object-fit: cover;
@@ -104,12 +111,13 @@ h1, h2, h3, h4, h5, h6 {
 /* --------------------------------------------- large images */
 
 .banner-top-image {
-    margin-top: 128px;
+    height: 100vh;
+    object-fit: cover;
 }
 
 .banner-image {
+    height: 90vh;
     object-fit: cover;
-    height: 100vh;
 }
 
 /* --------------------------------------------- Text Containers */
@@ -194,6 +202,15 @@ h1, h2, h3, h4, h5, h6 {
     .types-text-left p {
     text-align: right;
 }
+}
+
+.faq-question {
+    margin-top: 10px;
+}
+
+.faq-answer {
+    text-align: left;
+    padding: 10px;
 }
 
 /* --------------------------------------------- buttons */
