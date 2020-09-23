@@ -32,6 +32,10 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #efefef;
 }
 
+.bg-dif {
+    background-color: #b0bbb5;
+}
+
 /* --------------------------------------------- Nav bar */
 
 .logo-top-bar {
@@ -124,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
     border:  1px solid #f8f8f8;
 }
 
-@media only screen and (min-width: 991px) {
+@media only screen and (min-width: 768px) {
 
 .page-title-mobile {
     display: none;
