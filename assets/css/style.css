@@ -171,22 +171,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .types-available {
     padding: 20px 30px;
-    width: 100vh,
+    width: 100%;
 }
 
 .feature {
     text-align: center;
     border: 1px solid #f8f8f8;
-}
-
-.footer-content {
-    margin: 10px 20px;
-}
-
-.feature-footer {
-    text-align: center;
-    border: 1px solid #f8f8f8;
-    min-height: 250px;
 }
 
 /*-- types page */
@@ -316,9 +306,9 @@ h1, h2, h3, h4, h5, h6 {
 
 /* --------------------------------------------- footer */
 
-.footer-content {
-    padding: 10px;
-    margin: 0px;
+.footer-types-available {
+    padding: 20px 30px;
+    width: 100%;
     background-color: #aea18e;
 }
 
@@ -340,7 +330,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 2px;
 }
 
-.feature-footer ul {
+.feature ul {
     text-align: center;
     list-style-type: none;
     padding: 0;
@@ -348,7 +338,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
-.feature-footer h5 {
+.feature h5 {
     padding-top: 20px;
 }
 
