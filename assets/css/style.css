@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .types-image {
-    object-fit: cover;
+    object-fit: contain;
     width: 100%;
     max-height: 400px;
         /* -- box shadow code from Material Design Box Shadows by Samual Thornton */
@@ -133,15 +133,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .collabs-vid-col {
     max-width: 500px;
-    box-align: center;
     padding-bottom: 30px;
-}
-
-@media only screen and (min-width: 1300px) {
-
-    .collabs-vid-col {
-    margin-left: 100px;
-}
 }
 
 /* --------------------------------------------- Text Containers */
@@ -250,7 +242,7 @@ h1, h2, h3, h4, h5, h6 {
 
     .collabs-text-col {
     text-align: center;
-    padding: 50px 50px 50px 150px;
+    padding: 50px 100px 50px 100px;
 }
 }
 
