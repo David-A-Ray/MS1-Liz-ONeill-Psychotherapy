@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 768px) {
     .types-image-top {
         margin-top: 0px;
     }
@@ -126,6 +126,21 @@ h1, h2, h3, h4, h5, h6 {
     object-fit: cover;
 }
 
+/* --------------------------------------------- youtube video's */
+
+.collabs-vid-col {
+    max-width: 500px;
+    box-align: center;
+    padding-bottom: 30px;
+}
+
+@media only screen and (min-width: 1300px) {
+
+    .collabs-vid-col {
+    margin-left: 100px;
+}
+}
+
 /* --------------------------------------------- Text Containers */
 
 .page-title-mobile {
@@ -138,9 +153,9 @@ h1, h2, h3, h4, h5, h6 {
 
 @media only screen and (min-width: 768px) {
 
-.page-title-mobile {
-    display: none;
-}
+    .page-title-mobile {
+        display: none;
+    }
 }
 
 /*-- Home page */
@@ -180,11 +195,15 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 128px;
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 768px) {
 
 .top-text {
     margin-top: 0px;
 }
+}
+
+.three-col-text-section {
+    padding: 20px;
 }
 
 .types-sections {
@@ -217,6 +236,29 @@ h1, h2, h3, h4, h5, h6 {
 .faq-answer {
     text-align: left;
     padding: 10px;
+}
+
+/*-- collabs page */
+
+.collabs-text-col {
+    padding: 20px;
+    text-align: left;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .collabs-text-col {
+    text-align: center;
+    padding: 50px;
+}
+}
+
+@media only screen and (min-width: 1300px) {
+
+    .collabs-text-col {
+    text-align: center;
+    padding: 50px 50px 50px 150px;
+}
 }
 
 /* --------------------------------------------- buttons */
