@@ -105,7 +105,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .types-image {
     object-fit: contain;
-    width: 100%;
     max-height: 400px;
         /* -- box shadow code from Material Design Box Shadows by Samual Thornton */
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
@@ -244,6 +243,12 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     padding: 50px 100px 50px 100px;
 }
+}
+
+/*-- talk page */
+
+.talk-form {
+    padding: 0px 20px 20px 30px;
 }
 
 /* --------------------------------------------- buttons */
