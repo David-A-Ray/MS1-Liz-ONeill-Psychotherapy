@@ -179,22 +179,94 @@
         <div class="col-12 col-md-6 types-header">
           <h3 class="uppercase">Get in touch</h3>
           <hr class="block-divider" />
-          <p>add in contact form</p>
-          <p>First name</p>
-          <p>last name</p>
-          <p>email</p>
-          <p>message</p>
-          <p>want me to call you?</p>
-          <p>when</p>
-          <p>submit button</p>
+
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <form>
+                <div class="form-group">
+                  <label for="fname">First name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="fname"
+                    aria-describedby="first name"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="lname">Last name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="lname"
+                    aria-describedby="last name"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    aria-describedby="email"
+                  />
+                </div>
+              </form>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <form>
+                <div class="form-group">
+                  <label for="tel">Phone number</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="tel"
+                    aria-describedby="phone number"
+                  />
+                </div>
+                <div class="form-group tel-spacing">
+                  <label for="message">How are you feeling?</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="4"
+                  ></textarea>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <form>
+                <div class="form-group form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="exampleCheck1"
+                  />
+                  <label class="form-check-label" for="exampleCheck1"
+                    >Check me out</label
+                  >
+                </div>
+              </form>
+            </div>
+            <div class="col-12 col-md-6">
+              <form>
+                <button type="submit" class="btn btn-primary">
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
         </div>
-        <div class="col-12 col-md-6">
-          <img
-            src="assets/images/walking.jpg"
-            alt="a man walking a hilly path near the summit"
-            class="img-fluid types-image"
-          />
-        </div>
+
+      <div class="col-12 col-md-6">
+        <img
+          src="assets/images/walking.jpg"
+          alt="a man walking a hilly path near the summit"
+          class="img-fluid types-image"
+        />
       </div>
     </section>
 

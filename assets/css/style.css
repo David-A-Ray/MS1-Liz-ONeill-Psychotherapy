@@ -298,6 +298,11 @@ h1, h2, h3, h4, h5, h6 {
 .social-links-footer li a i:hover {
     background-color: #b0bbb5;
 }
+/* --------------------------------------------- input fields */
+
+.tel-spacing {
+    padding-top: 15px;
+}
 
 /* --------------------------------------------- footer */
 
