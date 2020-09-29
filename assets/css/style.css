@@ -80,8 +80,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bacp {
-    height: 50%;
+    height: 60%;
     width: 60%;
+    margin-bottom: 10px;
     margin-left: 5px;
     background-color: #f8f8f8!important;
         /* -- box shadow code from Material Design Box Shadows by Samual Thornton */
