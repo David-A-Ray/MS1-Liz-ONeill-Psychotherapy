@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Raleway:wght@400;600&display=swap');
 
 header,
@@ -76,7 +83,8 @@ h1, h2, h3, h4, h5, h6 {
     margin: 15px;
     border-radius: 10px;
         /* -- box shadow code from Material Design Box Shadows by Samual Thornton */
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    -webkit-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .bacp {
@@ -86,7 +94,8 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 5px;
     background-color: #f8f8f8!important;
         /* -- box shadow code from Material Design Box Shadows by Samual Thornton */
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    -webkit-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 /* --------------------------------------------- medium images */
@@ -96,19 +105,23 @@ h1, h2, h3, h4, h5, h6 {
     margin: 15px;
     height: 300px;
     width: 300px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     margin-top: 30px;
         /* -- box shadow code from Material Design Box Shadows by Samual Thornton */
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    -webkit-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 
 
 .types-image {
-    object-fit: contain;
+    -o-object-fit: contain;
+       object-fit: contain;
     max-height: 400px;
         /* -- box shadow code from Material Design Box Shadows by Samual Thornton */
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    -webkit-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 @media only screen and (max-width: 768px) {
@@ -121,12 +134,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .banner-top-image {
     height: 100vh;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 
 .banner-image {
     height: 90vh;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 
 /* --------------------------------------------- youtube video's */
@@ -353,4 +368,17 @@ h1, h2, h3, h4, h5, h6 {
     height: 10px;
     padding: 10px;
     
+}.example {
+    display: -ms-grid;
+    display: grid;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+    background: -o-linear-gradient(top, white, black);
+    background: linear-gradient(to bottom, white, black);
 }
