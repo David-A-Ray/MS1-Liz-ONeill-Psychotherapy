@@ -44,3 +44,5 @@ page and how to start the process.
 ### Surface
 
 Liz's branding is already working with a color pallet which needs to continue through the site. 
+
+![Kelvington color palate](https://github.com/David-A-Ray/MS1-LizO-Neill-Psychotherapy/blob/master/assets/images/kelvington.jpg "Kelvington color palate")
