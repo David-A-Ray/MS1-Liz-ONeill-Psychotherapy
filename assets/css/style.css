@@ -182,7 +182,14 @@ img.image-responsive.bacp {
 }
 
 .about-me p {
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .about-me p {
     text-align: left;
+}
 }
 
 .types-available {
@@ -221,17 +228,21 @@ img.image-responsive.bacp {
 }
 
 .types-text-right p {
-    text-align: left;
+    text-align: center;
 }
 
 .types-text-left p {
-    text-align: left;
+    text-align: center;
 }
 
 @media only screen and (min-width: 768px) {
 
     .types-text-left p {
     text-align: right;
+}
+
+    .types-text-right p {
+    text-align: left;
 }
 }
 
@@ -248,7 +259,7 @@ img.image-responsive.bacp {
 
 .collabs-text-col {
     padding: 20px;
-    text-align: left;
+    text-align: center;
 }
 
 @media only screen and (min-width: 768px) {
@@ -267,6 +278,10 @@ img.image-responsive.bacp {
 }
 }
 
+.faq-answer {
+    text-align: center;
+}
+
 /*-- talk page */
 
 .talk-form {
@@ -275,6 +290,17 @@ img.image-responsive.bacp {
 
 /* --------------------------------------------- buttons */
 
+.btn-custom1 {
+    color: #efefef;
+    background-color: #17a2b8;
+    border-color: #efefef;
+}
+
+.btn-custom2 {
+    color: #efefef;
+    background-color: #aea18e;
+    border-color: #efefef;
+}
 .social-links-header li a i {
     margin-top: 20px;
     width: 32px;
