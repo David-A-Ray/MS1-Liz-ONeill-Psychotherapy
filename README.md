@@ -105,6 +105,11 @@ and display additional image on large screens.
 * Site has been tested on multiple service providers (chrome, safari, firefox and internet Explorer).
 * Site tested on multiple devices (Large screen desktop, laptop, ipad pro, iphone 6 & XR). Other than the BACP logo in footer display issue
 all elements are displayed well.
+* [Autoprefixer](https://autoprefixer.github.io/ "Autoprefixer's Homepage") used to ensure all CSS displays on all internet explorers.
+* HTML tested using [WC3](https://validator.w3.org/ "WC3's Homepage") and all tests passed with no errors.
+* CSS tested using [WC3](https://jigsaw.w3.org/css-validator/ "WC3's Homepage")
+* Reponsiveness testing done on [Am I Responsive](http://ami.responsivedesign.is/?url=https://david-a-ray.github.io/MS1-LizO-Neill-Psychotherapy/ "Am I Responsive's Homepage"). 
+Click link to view website being displayed.
 
 ## Deployment
 The site has been deployed using GitHub pages from the masterbranch on GitHub. It is kept upto date with the final GitHub repository automatically
