@@ -111,7 +111,7 @@ The site has been deployed using GitHub pages from the masterbranch on GitHub. I
 with any Git Commits to the master branch.
 
 You can clone this repository directly into your editor to run it locally by pasting
-'git clone' 'https://github.com/David-A-Ray/MS1-LizO-Neill-Psychotherapy' into your terminal.
+`git clone` `https://github.com/David-A-Ray/MS1-LizO-Neill-Psychotherapy` into your terminal.
 
 ## Credits
 
@@ -123,3 +123,5 @@ Youtube embedded video description has taken some content from the video owners 
 ### media
 All images have been taken from [Unsplash](https://unsplash.com/ "Unsplash's Homepage").
 Embedded video files on Collaborations page are from [YouTube](https://youtube.com/ "YouTube's Homepage").
+
+### Acknowledgments
