@@ -10,7 +10,7 @@ site should reflect this and feel calming and organic. Naturally walking is not 
 online services given the impact of COVID.
 
 ## UX
-------
+
 ### User stories
 
 * As a potential client, I want to find the information regarding how the therapy works and if it and Liz is a good match for what I'm looking for, if so it then needs 
@@ -39,6 +39,10 @@ page and how to start the process.
 
 ### Skeleton
 
+* There are links to the V1 skeletons on Github.
+* V2 update removed some image's as there were too many and ammended layouts as needed. Also removed 1 page originally planned.
+
+
 
 
 ### Surface
@@ -46,3 +50,76 @@ page and how to start the process.
 Liz's branding is already working with a color pallet which needs to continue through the site. 
 
 ![Kelvington color palate](https://github.com/David-A-Ray/MS1-LizO-Neill-Psychotherapy/blob/master/assets/images/kelvington.jpg "Kelvington color palate")
+
+## Technologies
+
+* HTML5
+* CSS3
+* Bootstrap V4.5.2
+* jquery
+
+## Features
+
+* Links in footer on all pages to "Crisis" help websites and phone numbers for anyone in need of imediate help/suicide prevention.
+* Collaboration page uses iframe to embed playable youtube video files linked to social partners.
+* Talk page has made use of a submission form for clients to make contact.
+* Talk page has made use of a submission form for fellow psychotherapists to make contact.
+
+### Features left to implement
+
+* As Liz builds more social media content the main banner images will be replaced with scrolling images of her content.
+* Once more collaborations are established the imbedded youtube content will be expanded.
+* A google map range will be added to show where services are available.
+
+## Testing
+
+### Header
+* All navbar links work on all pages.
+* Navbar active highlight is visible on correct pages.
+* On mobile screen size additional page title displays underneith Navbar to help guide users.
+* All social icons open websites in new tabs using 'target="_blank"'
+* Social icons on "logo-header-bar" aren't visually pleasing on smaller screen sizes as the group with the logo too tightly, so using media queries 
+they are now hidden on small screen sizes and displayed on the right handside of the Navbar on the row below.
+
+### footer
+* "Crissis" section title link open websites in new tabs using 'target="_blank"'
+* BACP logo link opens website in new tabs using 'target="_blank"'
+* Bug with BACP logo not showing on mobile screen sizes still to be fixed.
+
+### index.html, types.html, what.html
+* All information consice and well structures to assist user stories.
+* Information layout responsive and well displayed to suit all screen sizes.
+* Some challenges with image display order with two images stacked on small screen sizes so added in media queries to hide image on small screens
+and display additional image on large screens.
+
+### collabs.html
+* Embedded Youtube files responsive and adjusting well on full range of screen sizes.
+
+### talk.html
+* Forms have limited functionality for the time being.
+* 
+* 
+* 
+
+### General Testing
+* Site has been tested on multiple service providers (chrome, safari, firefox and internet Explorer).
+* Site tested on multiple devices (Large screen desktop, laptop, ipad pro, iphone 6 & XR). Other than the BACP logo in footer display issue
+all elements are displayed well.
+
+## Deployment
+The site has been deployed using GitHub pages from the masterbranch on GitHub. It is kept upto date with the final GitHub repository automatically
+with any Git Commits to the master branch.
+
+You can clone this repository directly into your editor to run it locally by pasting
+'git clone' 'https://github.com/David-A-Ray/MS1-LizO-Neill-Psychotherapy' into your terminal.
+
+## Credits
+
+### content
+All content on Home, Types of therapy, What to expect & FAQ's and Let's talk about it has been written by Liz O'Neill.
+
+Youtube embedded video description has taken some content from the video owners sites to be included in description although it has been altered.
+
+### media
+All images have been taken from [Unsplash](https://unsplash.com/ "Unsplash's Homepage").
+Embedded video files on Collaborations page are from [YouTube](https://youtube.com/ "YouTube's Homepage").
