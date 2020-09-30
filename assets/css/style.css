@@ -79,8 +79,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .types-brief-image {
-    height: 200px;
-    margin: 15px;
+    height: 180px;
+    margin: 20px 0px;
     border-radius: 10px;
         /* -- box shadow code from Material Design Box Shadows by Samual Thornton */
     -webkit-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
@@ -88,14 +88,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bacp {
-    height: 60%;
+    height: 50%;
     width: 60%;
     margin-bottom: 10px;
     margin-left: 5px;
-    background-color: #f8f8f8!important;
-        /* -- box shadow code from Material Design Box Shadows by Samual Thornton */
+    padding-left: 1em;
+    border-radius: 10px;
+    padding-right: 1em;
+    background-color: #ffffff!important;
     -webkit-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+img.image-responsive.bacp {
+    object-fit: contain;
 }
 
 /* --------------------------------------------- medium images */
