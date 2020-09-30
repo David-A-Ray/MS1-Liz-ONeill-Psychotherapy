@@ -121,7 +121,17 @@ All content on Home, Types of therapy, What to expect & FAQ's and Let's talk abo
 Youtube embedded video description has taken some content from the video owners sites to be included in description although it has been altered.
 
 ### media
-All images have been taken from [Unsplash](https://unsplash.com/ "Unsplash's Homepage").
-Embedded video files on Collaborations page are from [YouTube](https://youtube.com/ "YouTube's Homepage").
+* All images have been taken from [Unsplash](https://unsplash.com/ "Unsplash's Homepage").
+* Embedded video files on Collaborations page are from [YouTube](https://youtube.com/ "YouTube's Homepage").
+* BACP logo taken from [Step-by-step](https://www.stepbystepcounselling.co.uk/ "Step-by-step's Homepage") and altered to remove registered members number.
+
+* FONT AWESOME AND GOOGLE FONTS NEED ACKNOWLEDGMENT? 
 
 ### Acknowledgments
+* JQuery used for NavBar dropdown menu taken from Code Institutes Whiskey Drop learning module.
+* Social media icons code taken from Code Institutes Resume learning module.
+* Box shading on images code taken from Material Design Box Shadows by Samual Thornton.
+* Code assistance for images to use `object-fit: cover/contain` from JimLynx_lead on slack who pointed me in the right direction.
+* Code assistance with `mx-auto` from Mr_Bim_alumni in the slack thursday evening study group.
+* Favicon image was created using [Favicon.io](https://favicon.io/ "Favicon's Homepage"), there code was used in header to load image across all service providers.
+* [TinyPNG](https://tinypng.com/ "TinyPNG's Homepage") used to compress all image files except for ldw.jpg which was too large. 
