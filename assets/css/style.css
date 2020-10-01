@@ -278,10 +278,6 @@ img.image-responsive.bacp {
 }
 }
 
-.faq-answer {
-    text-align: center;
-}
-
 /*-- talk page */
 
 .talk-form {
@@ -351,6 +347,28 @@ img.image-responsive.bacp {
 .social-links-footer li a i:hover {
     background-color: #b0bbb5;
 }
+
+/* --------------------------------------------- cards */
+
+.card-header {
+    background-color: #bfb8ae;
+}
+
+.btn-link {
+    color: #efefef;
+    font-family: "Cinzel", sans-serif;
+}
+
+.btn:hover {
+    color: #efefef;
+    background-color: #b0bbb5;
+}
+
+.card-body {
+    background-color: #efefef;
+    color: #aea18e;
+}
+
 /* --------------------------------------------- input fields */
 
 .tel-spacing {
