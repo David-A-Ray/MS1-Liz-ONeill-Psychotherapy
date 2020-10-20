@@ -9,6 +9,8 @@ Walking therapy is a fairly new approach to therapy service and encourages a dif
 site should reflect this and feel calming and organic. Naturally walking is not for everyone so traditional therapy style services will be offered along with 
 online services given the impact of COVID.
 
+![Am I responsive](https://github.com/David-A-Ray/MS1-LizO-Neill-Psychotherapy/blob/master/assets/images/responsive.png)
+
 ## UX
 
 ### User stories
@@ -57,10 +59,14 @@ Liz's branding is already working with a color pallet which needs to continue th
 
 ## Technologies
 
-* HTML5
-* CSS3
-* Bootstrap V4.5.2
-* jquery
+* HTML5 - provides content and structure of the site.
+* CSS3 - adds styling.
+* Bootstrap V4.5.2 - provides the bulk of responsive layout.
+* jquery - used on dropdown menu.
+* Google FONTS - imported for 2 font varieties.
+* Font Awesome - images used for social links and some footer logo's.
+* Balsamiq wireframes - used for all wireframes.
+* Favicon.io - used for favicon icons across all browsers.
 
 ## Features
 
@@ -101,9 +107,7 @@ and display additional image on large screens.
 
 ### talk.html
 * Forms have limited functionality for the time being.
-* 
-* 
-* 
+* Responsive layout for screen size adjustments.
 
 ### General Testing
 * Site has been tested on multiple service providers (chrome, safari, firefox and internet Explorer).
@@ -116,11 +120,24 @@ all elements are displayed well.
 Click link to view website being displayed.
 
 ## Deployment
-The site has been deployed using GitHub pages from the masterbranch on GitHub. It is kept upto date with the final GitHub repository automatically
-with any Git Commits to the master branch.
 
-You can clone this repository directly into your editor to run it locally by pasting
-`git clone` `https://github.com/David-A-Ray/MS1-LizO-Neill-Psychotherapy` into your terminal.
+### GitHub pages
+1. I went to my GitHub repository - https://github.com/David-A-Ray/MS1-LizO-Neill-Psychotherapy
+2. Clicked on the settings icon in the top right of the screen.
+3. Scrolled down to the GitHub Pages section.
+4. Switched the source to master branch.
+5. Waited for page to refresh.
+6. Page is deployed to - https://david-a-ray.github.io/MS1-LizO-Neill-Psychotherapy/
+
+### Git Clone
+* To clone my repository follow these steps:
+1. Go to my GitHub repository - https://github.com/David-A-Ray/MS1-LizO-Neill-Psychotherapy
+2. Click on the CODE drop down button.
+3. With the HTTPS option selected click on the clipboard icon.
+4. Open your IDE.
+5. Create a directory you want the clone to be named as.
+6. Type git clone in your terminal followed by pasting the link you've copied.
+7. Hit enter and your local clone will be created.
 
 ## Credits
 
@@ -130,11 +147,9 @@ All content on Home, Types of therapy, What to expect & FAQ's and Let's talk abo
 Youtube embedded video description has taken some content from the video owners sites to be included in description although it has been altered.
 
 ### media
-* All images have been taken from [Unsplash](https://unsplash.com/ "Unsplash's Homepage").
+* Images for "types of therapy" have been taken from [Unsplash](https://unsplash.com/ "Unsplash's Homepage").
 * Embedded video files on Collaborations page are from [YouTube](https://youtube.com/ "YouTube's Homepage").
 * BACP logo taken from [Step-by-step](https://www.stepbystepcounselling.co.uk/ "Step-by-step's Homepage") and altered to remove registered members number.
-
-* FONT AWESOME AND GOOGLE FONTS NEED ACKNOWLEDGMENT? 
 
 ### Acknowledgments
 * JQuery used for NavBar dropdown menu taken from Code Institutes Whiskey Drop learning module.
