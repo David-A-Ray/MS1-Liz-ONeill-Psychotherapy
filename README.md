@@ -67,6 +67,8 @@ Liz's branding is already working with a color pallet which needs to continue th
 * Font Awesome - images used for social links and some footer logo's.
 * Balsamiq wireframes - used for all wireframes.
 * Favicon.io - used for favicon icons across all browsers.
+* TinyPNG - used to compress initial image files.
+* Compressjpeg - used for larger photo's from Liz.
 
 ## Features
 
@@ -158,4 +160,5 @@ Youtube embedded video description has taken some content from the video owners 
 * Code assistance for images to use `object-fit: cover/contain` from JimLynx_lead on slack who pointed me in the right direction.
 * Code assistance with `mx-auto` from Mr_Bim_alumni in the slack thursday evening study group.
 * Favicon image was created using [Favicon.io](https://favicon.io/ "Favicon's Homepage"), there code was used in header to load image across all service providers.
-* [TinyPNG](https://tinypng.com/ "TinyPNG's Homepage") used to compress all image files except for ldw.jpg which was too large. 
+* [TinyPNG](https://tinypng.com/ "TinyPNG's Homepage") used to compress all image files except for ldw.jpg which was too large.
+* [Compressjpeg](https://compressjpeg.com/) used to compress the larger files.
