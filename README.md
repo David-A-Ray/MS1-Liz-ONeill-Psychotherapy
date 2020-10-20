@@ -42,8 +42,12 @@ page and how to start the process.
 * There are links to the V1 skeletons on Github.
 * V2 update removed some image's as there were too many and ammended layouts as needed. Also removed 1 page originally planned.
 
-* [Site Map V2] (https://e94c9cbb-b2a2-4fc8-bb18-0200bdf3f020.ws-eu01.gitpod.io/#/workspace/MS1-LizO-Neill-Psychotherapy)
-* [Home page] (https://e94c9cbb-b2a2-4fc8-bb18-0200bdf3f020.ws-eu01.gitpod.io/#/workspace/MS1-LizO-Neill-Psychotherapy)
+* [Site Map V2](https://github.com/David-A-Ray/MS1-LizO-Neill-Psychotherapy/blob/master/assets/docs/wire-frames-v2/Site%20Map%20V2.pdf)
+* [Home page V2](https://github.com/David-A-Ray/MS1-LizO-Neill-Psychotherapy/blob/master/assets/docs/wire-frames-v2/Home%20Page%20V2.pdf)
+* [types of therapy V2](https://github.com/David-A-Ray/MS1-LizO-Neill-Psychotherapy/blob/master/assets/docs/wire-frames-v2/Types%20of%20therapy%20V2.pdf)
+* [what to expect V2](https://github.com/David-A-Ray/MS1-LizO-Neill-Psychotherapy/blob/master/assets/docs/wire-frames-v2/What%20to%20expect%20V2.pdf)
+* [collaborations V2](https://github.com/David-A-Ray/MS1-LizO-Neill-Psychotherapy/blob/master/assets/docs/wire-frames-v2/Collaborations%20V2.pdf)
+* [Let's talk about it V2](https://github.com/David-A-Ray/MS1-LizO-Neill-Psychotherapy/blob/master/assets/docs/wire-frames-v2/Let's%20talk%20about%20it%20V2.pdf)
 
 ### Surface
 
