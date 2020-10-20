@@ -42,8 +42,8 @@ page and how to start the process.
 * There are links to the V1 skeletons on Github.
 * V2 update removed some image's as there were too many and ammended layouts as needed. Also removed 1 page originally planned.
 
-
-
+* [Site Map V2] (https://e94c9cbb-b2a2-4fc8-bb18-0200bdf3f020.ws-eu01.gitpod.io/#/workspace/MS1-LizO-Neill-Psychotherapy)
+* [Home page] (https://e94c9cbb-b2a2-4fc8-bb18-0200bdf3f020.ws-eu01.gitpod.io/#/workspace/MS1-LizO-Neill-Psychotherapy)
 
 ### Surface
 
