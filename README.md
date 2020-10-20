@@ -94,7 +94,7 @@ they are now hidden on small screen sizes and displayed on the right handside of
 ### footer
 * "Crissis" section title link open websites in new tabs using 'target="_blank"'
 * BACP logo link opens website in new tabs using 'target="_blank"'
-* Bug with BACP logo not showing on mobile screen sizes still to be fixed.
+* ~~Bug with BACP logo not showing on mobile screen sizes still to be fixed.~~
 
 ### index.html, types.html, what.html
 * All information consice and well structures to assist user stories.
