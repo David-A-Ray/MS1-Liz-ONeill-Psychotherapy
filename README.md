@@ -57,6 +57,11 @@ Liz's branding is already working with a color pallet which needs to continue th
 
 ![Kelvington color palate](https://github.com/David-A-Ray/MS1-LizO-Neill-Psychotherapy/blob/master/assets/images/kelvington.jpg "Kelvington color palate")
 
+* White dove - #efefef, (239, 239, 231)
+* Humalayan trek - #bfb8ae, (191, 184, 174)
+* Indian river - #aea18e, (174, 161, 142)
+* Iced marble - #bobbb5, (176, 187, 181)
+
 ## Technologies
 
 * HTML5 - provides content and structure of the site.
@@ -69,6 +74,7 @@ Liz's branding is already working with a color pallet which needs to continue th
 * Favicon.io - used for favicon icons across all browsers.
 * TinyPNG - used to compress initial image files.
 * Compressjpeg - used for larger photo's from Liz.
+* imagecolorpicker.com - used to find the RGB codes for the color palate.
 
 ## Features
 
