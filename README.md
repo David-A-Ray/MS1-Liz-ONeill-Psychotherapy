@@ -150,7 +150,8 @@ Click link to view website being displayed.
 ## Credits
 
 ### content
-All content on Home, Types of therapy, What to expect & FAQ's and Let's talk about it has been written by Liz O'Neill.
+* Index.html - content on therapy taken from https://theworsleycentre.com/the-benefits-of-counselling/
+* 
 
 Youtube embedded video description has taken some content from the video owners sites to be included in description although it has been altered.
 
