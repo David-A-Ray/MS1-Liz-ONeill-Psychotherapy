@@ -150,8 +150,24 @@ Click link to view website being displayed.
 ## Credits
 
 ### content
-* Index.html - content on therapy taken from https://theworsleycentre.com/the-benefits-of-counselling/
-* 
+#### Index.html & Types of therapy - content on therapy taken from: 
+* https://theworsleycentre.com/the-benefits-of-counselling/
+* https://www.counselling-directory.org.uk/memberarticles/the-benefits-of-walking-and-talking-therapy
+
+#### what.html - content taken from:
+* https://www.verywellmind.com/how-to-choose-the-right-therapist-for-you-4842306
+
+#### collabs.html - content from video links reference topics
+* Yoga info taken from - https://yogasoulmcr.co.uk/teachers/claudia-mirallegro/
+* Nutrition with infor taken from - https://cleananddelicious.com/
+* Yoga retreats text taken from - https://www.yogasailingholidays.com/post/2013-1-9-10-reasons-to-go-on-a-yoga-retreat?gclid=CjwKCAiAkan9BRAqEiwAP9X6Udf4hfirhlHOphjK_SJ7ar3_eElzcligYiZDTQL1VV4eiitgrZA2JxoCt4YQAvD_BwE
+* Spread the word through social text - http://blogs.brighton.ac.uk/mjf16/2016/04/11/the-power-of-social-media-and-word-of-mouth-how-to-spread-the-word-of-your-brand/
+* mind body and sole text - https://www.drchristinahibbert.com/personal-growth-and-self-actualization/spritual/#:~:text=practice%20of%20psychology%3F-,The%20Mind%2DBody%2DSpirit%20Connection,Our%20entire%20soul%20is%20healthier
+* good to have friends text - https://www.clarizen.com/the-many-advantages-of-collaborative-working/
+
+#### talk.html - content on want to work with me taken from:
+* https://blog.jostle.me/blog/why-collaboration-is-important
+
 
 Youtube embedded video description has taken some content from the video owners sites to be included in description although it has been altered.
 

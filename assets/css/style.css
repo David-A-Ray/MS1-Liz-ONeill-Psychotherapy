@@ -280,6 +280,10 @@ img.image-responsive.bacp {
 
 /*-- talk page */
 
+.start-process-text {
+    text-align: left;
+}
+
 .talk-form {
     padding: 0px 20px 20px 30px;
 }
