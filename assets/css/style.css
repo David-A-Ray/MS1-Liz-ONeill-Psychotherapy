@@ -281,6 +281,7 @@ img.image-responsive.bacp {
 /*-- talk page */
 
 .start-process-text {
+    padding: 20px;
     text-align: left;
 }
 
