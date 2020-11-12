@@ -64,17 +64,17 @@ Liz's branding is already working with a color pallet which needs to continue th
 
 ## Technologies
 
-* HTML5 - provides content and structure of the site.
-* CSS3 - adds styling.
-* Bootstrap V4.5.2 - provides the bulk of responsive layout.
-* jquery - used on dropdown menu.
-* Google FONTS - imported for 2 font varieties.
-* Font Awesome - images used for social links and some footer logo's.
-* Balsamiq wireframes - used for all wireframes.
-* Favicon.io - used for favicon icons across all browsers.
-* TinyPNG - used to compress initial image files.
-* Compressjpeg - used for larger photo's from Liz.
-* imagecolorpicker.com - used to find the RGB codes for the color palate.
+* [HTML5](https://en.wikipedia.org/wiki/HTML5) - provides content and structure of the site.
+* [CSS3](https://en.wikipedia.org/wiki/CSS) - adds styling.
+* [Bootstrap V4.5.2](https://getbootstrap.com/docs/4.5/getting-started/introduction/) - provides the bulk of responsive layout.
+* [jquery](https://jquery.com/) - used on dropdown menu.
+* [Google FONTS](https://fonts.google.com/) - imported for 2 font varieties.
+* [Font Awesome](https://fontawesome.com/) - images used for social links and some footer logo's.
+* [Balsamiq wireframes](https://balsamiq.com/wireframes/?gclid=CjwKCAiA17P9BRB2EiwAMvwNyJFLuwdZxoUMDd-KJV_EtTEdllWFxfMzYAxyyiN7yGBDdFV0IoCHQRoCe0EQAvD_BwE) - used for all wireframes.
+* [Favicon.io](https://favicon.io/) - used for favicon icons across all browsers.
+* [TinyPNG](https://tinypng.com/) - used to compress initial image files.
+* [Compressjpeg](https://compressjpeg.com/) - used for larger photo's from Liz.
+* [imagecolorpicker.com](https://imagecolorpicker.com/en/) - used to find the RGB codes for the color palate.
 
 ## Features
 
@@ -119,8 +119,9 @@ and display additional image on large screens.
 
 ### General Testing
 * Site has been tested on multiple service providers (chrome, safari, firefox and internet Explorer).
-* Site tested on multiple devices (Large screen desktop, laptop, ipad pro, iphone 6 & XR). Other than the BACP logo in footer display issue
-all elements are displayed well.
+* Developer tools used for all different test scenarios.
+* Site tested on multiple devices (Large screen desktop, laptop, ipad pro, iphone 6 & XR). ~~Other than the BACP logo in footer display issue
+all elements are displayed well.~~
 * [Autoprefixer](https://autoprefixer.github.io/ "Autoprefixer's Homepage") used to ensure all CSS displays on all internet explorers.
 * HTML tested using [WC3](https://validator.w3.org/ "WC3's Homepage") and all tests passed with no errors.
 * CSS tested using [WC3](https://jigsaw.w3.org/css-validator/ "WC3's Homepage")
@@ -135,7 +136,7 @@ Click link to view website being displayed.
 3. Scrolled down to the GitHub Pages section.
 4. Switched the source to master branch.
 5. Waited for page to refresh.
-6. Page is deployed to - https://david-a-ray.github.io/MS1-LizO-Neill-Psychotherapy/
+6. Page is published to - https://david-a-ray.github.io/MS1-LizO-Neill-Psychotherapy/
 
 ### Git Clone
 * To clone my repository follow these steps:
