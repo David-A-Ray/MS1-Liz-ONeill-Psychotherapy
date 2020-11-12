@@ -128,6 +128,15 @@ all elements are displayed well.~~
 * Reponsiveness testing done on [Am I Responsive](http://ami.responsivedesign.is/?url=https://david-a-ray.github.io/MS1-LizO-Neill-Psychotherapy/ "Am I Responsive's Homepage"). 
 Click link to view website being displayed.
 
+### User stories testing
+* As a client the home screen gives a good indication as to what is on offer, it's easy to navigate to get more information about the range of therapies and to 
+understand if Liz is potentially a good match for me. The talk contact form is straightforward and well explained.
+* As a friend of a person in need it's easy to get hold of information and navigate pages to see if it could help my friend. The links to social accounts make it easy to share 
+information in a non-direct way. Getting in touch is easy with the forms on contact page available.
+* As a collaborator it's very clear to see the style of Liz's approach and the brands/people she has chosen to work with. The overall message is clear and it is well explained how to 
+get in contact.
+* As a fellow psychologist the site is easy to navigate and the explanation on the contact form explains how to reach out to work with Liz.
+
 ## Deployment
 
 ### GitHub pages
